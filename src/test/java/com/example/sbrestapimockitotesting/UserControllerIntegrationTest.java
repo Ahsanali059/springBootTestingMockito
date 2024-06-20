@@ -53,4 +53,5 @@ public class UserControllerIntegrationTest {
 
         verify(userService).registerUser(any(UserRegistrationDto.class));
     }
+
 }
